@@ -1,0 +1,45 @@
+input{
+    width: 50%;
+    height: 30px;
+    text-align: center;
+}
+
+.b1{
+    margin: 2%;
+    background-color: black;
+    color: white;
+    width: 14%;
+    height: 30px;
+}
+
+.b1:hover{
+    background-color: white;
+    color: black;
+    zoom: 120%;
+}
+
+button{
+    margin-right: 5%;
+    width: 24%;
+    height: 30px;
+    color: white;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 23%;
+    width: 50%;
+    height: 30px;
+    padding: 2%;
+    border: black 1px solid;
+}
+
+.cha{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 25%;
+    margin-top:2% ;
+}
