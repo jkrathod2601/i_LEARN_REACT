@@ -1,9 +1,10 @@
 import './App.css';
+import Chart from './chart/chart';
 
-function App(){
+function App(x){
   return (
     <div className="App">
-       <h1>HELLO WORLD</h1>
+      <Chart></Chart>
     </div>
   );
 }

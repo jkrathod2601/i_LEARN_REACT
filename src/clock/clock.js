@@ -2,6 +2,8 @@ import { useState } from 'react'
 import classes from './ad.module.css'
 import { useEffect } from 'react'
 import { Switch } from '@material-ui/core'
+import Brightness7Icon from '@material-ui/icons/Brightness7';
+import NightsStayIcon from '@material-ui/icons/NightsStay';
 
 const Clock=()=>{
     const [time,settime]=useState({
@@ -38,7 +40,7 @@ const Clock=()=>{
     return(
         <div>
         <div className={c1}>
-                <h1 style={{color:colorh1,fontSize:"20px"}}>DARK<Switch className={classes.switch} onChange={change} size="medium" color='default'></Switch>LIGHT</h1>
+                <h1 className="love" style={{color:colorh1,fontSize:"20px"}}><NightsStayIcon style={{fontSize:"70px"}}></NightsStayIcon><Switch className={classes.switch} onChange={change} size="medium" color='default'></Switch><Brightness7Icon style={{fontSize:"60px"}}></Brightness7Icon></h1>
                 <h1 >{time.hour}:{time.min}:{time.sec}</h1>
                 <h2 style={{fontSize:"30px"}}>CREATED BY <span>JAYRAJ RATHOD</span></h2>
         </div>
