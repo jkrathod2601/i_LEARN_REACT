@@ -44,7 +44,6 @@ const Clock=()=>{
                 <h1 >{time.hour}:{time.min}:{time.sec}</h1>
                 <h2 style={{fontSize:"30px"}}>CREATED BY <span>JAYRAJ RATHOD</span></h2>
         </div>
-                
         </div>
     )
 }

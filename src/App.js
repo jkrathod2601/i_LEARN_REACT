@@ -1,12 +1,12 @@
 import './App.css';
-import Chart from './chart/chart';
-
+import Main from './routing-components/main';
 function App(x){
   return (
-    <div className="App">
-      <Chart></Chart>
+    <div>
+      <Main></Main>
+     
     </div>
   );
 }
 
-export default App;
+export default App; 
