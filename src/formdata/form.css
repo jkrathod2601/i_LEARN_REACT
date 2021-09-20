@@ -1,0 +1,14 @@
+form{
+    text-align: center;
+    margin-top: 10%;
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 20%;
+    padding: 2%;
+    height: 100%
+}
+
+.TextField{
+    padding:5%;
+   
+}

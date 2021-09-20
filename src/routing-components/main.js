@@ -9,8 +9,8 @@ const Main=()=>{
         <div>
         <Header></Header>
         <Switch>     
-        <Route exact path="/" component={About}></Route>
-        <Route exact path="/contact" component={Contact}></Route>
+            <Route exact path="/" component={About}></Route>
+            <Route exact path="/contact" component={Contact}></Route>
         <Route component={Eroor}></Route>
         </Switch>
         </div>
